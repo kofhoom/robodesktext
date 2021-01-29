@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.submenu {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    height: 50px;
+    top: 0;
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+.submenu ul {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    line-height: 40px;
+    justify-content: center;
+    top: 0;
+
+}
+
+.submenu ul li {
+    cursor: pointer;
+    line-height: 50px;
+
+    font-size: 15px;
+    position: relative;
+    right: 190px;
+}
+
+.submenu ul .line {
+    margin: auto 30px;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 100%;
+
+    height: 180px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #292929;
+    color: #ffffff;
+
+}
+
+footer .footerimg {
+    background: url(../img/footermain.png) no-repeat center right;
+    right: 70px;
+    width: calc(100% - 900px);
+    height: 33px;
+    background-size: 209px 33px;
+    position: relative;
+    top: 20px;
+}
+
+.footercontainer {
+    width: 100%;
+top: 15px;
+    display: flex;
+    position: relative;
+    text-align: center;
+  
+}
+
+address {
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    width:80%;
+    justify-content: center;
+    display: inline-block;
+
+    
+}
+address ul {
+    word-break: keep-all;
+    position: relative;
+    top: 21%;
+        height: 100%;
+    display: inline-block;
+    line-height: 1.8;
+color: #696969;
+}
+address li:nth-child(1) {
+ background: url(../img/footerlogo.png) no-repeat left center;
+     height: 100%;
+    
+    
+}
+.wrap {
+    width: 100%;
+    
+}
+address li:nth-child(2) {
+    font-size: 14px;
+}
+
+address li:nth-child(3) {
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.snsbox {
+    
+    display: flex;
+ 
+    height: 57px;
+
+}
+a {
+    color: #000;
+}
+
+.snsbox span {
+
+line-height: 57px;
+font-weight: bold;
+    left: 20px;
+font-size: 14px;
+    position: absolute;
+    
+}
+
+.snsboximg {
+    background: url(../img/answer.png) no-repeat center center;
+       width: 174px;
+    height: 59px;
+    background-size: 100%;
+    cursor: pointer;
+    position: relative;
+   right: 30%;
+top: 65%;
+
+}

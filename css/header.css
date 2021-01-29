@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.warp {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.warp::before {
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    height: 90px;
+}
+
+body {
+  
+    width: 100%;
+
+    height: auto;
+    
+background: #fff;
+        margin: 0 auto;
+}
+/*header section 01-28 김준수*/
+
+.headerstection {
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    height: 90px;
+    margin: 0 auto;
+    top: 20px;
+}
+
+/*logo 2021 01-28 김준수*/
+.logo {
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    flex: auto;
+    background: url(../img/logo.png)no-repeat center center;
+
+    
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: #fff ;
+}
+
+.menu li {
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.loginbox {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 15%;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/*num count*/
+.loginbox .num {
+    margin-left: 7px;
+    background: url(../img/num.png) no-repeat center center;
+    width: 6%;
+    background-size: 100%;
+}
+
+.loginboxmidde {
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.headersubbutton span {
+    width: 79px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    height: 21px;
+}
+
+.headersubbutton span:nth-child(2) {
+    background: #ffffff;
+    color: #262222;
+    margin-left: 10px;
+}
